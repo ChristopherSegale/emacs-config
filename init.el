@@ -1,5 +1,4 @@
-(setq backup-directory-alist 
-  '(("." . "~/.file-backups")))
+(load "~/.emacs.d/settings.el")
 
 (load "~/.emacs.d/straight-init.el")
 
