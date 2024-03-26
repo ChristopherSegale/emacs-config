@@ -1,7 +1,10 @@
-(load "~/.emacs.d/settings.el")
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-to-list 'load-path "~/.config/emacs/lisp/")
 
-(load "~/.emacs.d/straight-init.el")
+(load "settings.el")
 
-(load "~/.emacs.d/packages.el")
+(load "straight-init.el")
 
-(load "~/.emacs.d/themes.el")
+(load "packages.el")
+
+(load "themes.el")
